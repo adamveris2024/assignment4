@@ -11,20 +11,17 @@
 // Example Output:
 // console.log(searchString(“s”, “mississippi”)); // will output 4
 // console.log(searchString(“q”, “mississippi”)); // will output 0
-function smallestNumber(num) {
-    console.log(num < 100)
-}
+console.log(Math.min(0, 10));
 
-smallestNumber(10)
-smallestNumber(50)
+
 /*************************************/
 
 function calculateCircumference(rad) {
     console.log(rad * 2 * 3.14)
 
-}
+};
 
-calculateCircumference(5)
+calculateCircumference(5);
 
 
 /**************************************/
